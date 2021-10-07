@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Forced example on how to use pointers. It is a good example on how to change directly things in memory thought.
+
 void update(int *a,int *b) {
     int sum; int ad;
     sum = *a + *b;
