@@ -9,8 +9,8 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
-    map<string,int>notes;
+    /* an example of how to use maps. This was a bit forced, but the basic strcuture is still useful. */
+    map<string,int>notes;  // This create the map that asigns a integer to a string.
     int Q; int choice;
     string name; int mark; int marksum;
     cin >> Q;
@@ -18,7 +18,7 @@ int main() {
         cin >> choice;
         if (choice ==1){
             cin >> name >> mark;
-            map<string,int>::iterator itr=notes.find(name);
+            map<string,int>::iterator itr=notes.find(name); //this finds the reference of a particular name  (value in the domain) 
             if (itr == notes.end()){
                 notes.insert(make_pair(name, mark));
             }

@@ -6,9 +6,9 @@
 using namespace std;
 
 /*
-    add code for struct here.
+    A really easy example on how to use structures.
 */
-struct Student {
+struct Student { // This create a structure of student, having age, first name, last name and "standard".
     int age;
     string first_name;
     string last_name;

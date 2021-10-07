@@ -1,7 +1,9 @@
 #include<iostream>
 
 using namespace std;
-
+/* this is a really silly code to show multiple inheretence.
+Honestly I didnt like this problem becaused it was forzed to use m.i. for solving a really simple computation.
+anyway, good to have a references for this */
 class A
 {
     public:
