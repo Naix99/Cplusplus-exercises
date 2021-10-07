@@ -7,10 +7,7 @@ string rtrim(const string &);
 vector<string> split(const string &);
 
 /*
- * Complete the 'diagonalDifference' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts 2D_INTEGER_ARRAY arr as parameter.
+ A code to compute the absolute value of the diferenc of the two diagonals of a matrix. Nice example to look at how to work with matrices*/
  */
 
 int diagonalDifference(vector<vector<int>> arr) {

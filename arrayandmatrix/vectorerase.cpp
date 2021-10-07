@@ -7,7 +7,7 @@ using namespace std;
 
 
 int main() {
-    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ 
+    /* Example code on how to work with vectors. In particular on how to erase elements.*/ 
     int N;
     int newn;
     int er; int ers; int ere;

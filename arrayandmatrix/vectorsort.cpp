@@ -7,6 +7,7 @@ using namespace std;
 
 
 int main() {
+    // Example on how to sort elements of a vector.
     int N;
     int newn;
     cin >> N;

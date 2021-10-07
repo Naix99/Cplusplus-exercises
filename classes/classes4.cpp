@@ -4,6 +4,9 @@ include <cmath>
 #include <iostream>
 #include <algorithm>
 using namespace std;
+
+/* This code deal with basic inheretence of classes. We have a base class "Person" and two classes, "Professor" and "Student" that
+inherit some basic functionally from "Person" */
 class Person {
     public:
         string name; 
@@ -18,6 +21,7 @@ class Person {
 
 class Professor : public Person{
     public:
+        // Professor adds a number of publications and a curriculum id to person.
         int cur_id;
         int pn;
         static int id;
@@ -34,11 +38,13 @@ class Professor : public Person{
             cout<< pn << " " << cur_id << endl;
         }
 };
+// This defines and id variable ONLY in the enviroment of the class Professor. Really useful for assigning different id to different professors
 int Professor::id=1;
 
 
 class Student : public Person{
     public:
+    // Students also have an id (different from Professors) and a marking
     int cur_id;
     int sumarks;
     static int id;

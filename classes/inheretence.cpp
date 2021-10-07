@@ -2,7 +2,7 @@
 
 using namespace std;
 /*
- * Create classes Rectangle and RectangleArea
+ * Create classes Rectangle and the Area of a Rectangle. Just an example of basic inheretence. Classes4 is much more interesting.
  */
 
 class Rectangle {

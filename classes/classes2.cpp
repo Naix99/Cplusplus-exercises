@@ -6,7 +6,7 @@
 #include <cassert>
 using namespace std;
 
-// Write your Student class here
+// Student class containing five grades of the student.
 
 class Student {
     private:
@@ -17,11 +17,13 @@ class Student {
             cin>>score1 >> score2 >> score3 >> score4 >> score5;
         }
         int calculateTotalScore(){
-            return score1 + score2 + score3 + score4+score5;
+            return score1 + score2 + score3 + score4 + score5;
         }
 };
 
 // Student class finish here
+
+// The following code compare a student (kristen) with respect to her position against all other student in the class.
 int main() {
     int n; // number of students
     cin >> n;

@@ -1,15 +1,15 @@
 #include<bits/stdc++.h>
 
 using namespace std;
-//Implement the class Box  
+//Code that implement sthe class Box  
 //l,b,h are integers representing the dimensions of the box
 
 // The class should have the following functions : 
 
 // Constructors: 
-// Box();
-// Box(int,int,int);
-// Box(Box);
+// Box(); (construct a box without information)
+// Box(int,int,int); (construct a box with given l,b,h)
+// Box(Box); (construct a box with the same data as another box)
 
 
 class Box {
@@ -36,9 +36,11 @@ class Box {
         int getHeight(){
             return h;
         }
+		// A basic function to give the volume of a box.
         long long int CalculateVolume(){
             return l*b*h;
         }
+		// This is defining how to compare two boxes using <.
         bool operator<(Box& ot){
             if (l<ot.getLength()){
                 return true;
@@ -54,18 +56,15 @@ class Box {
             } 
         }        
 };
+// This is defining how to print a box to the console.
 ostream& operator<<(ostream& out, Box& B){
             out << B.getLength()<< " "<<B.getBreadth()<<" "<<B.getHeight();
             return out; 
 }
 
-//Overload operator < as specified
-//bool operator<(Box& b)
 
-//Overload operator << as specified
-//ostream& operator<<(ostream& out, Box& B)
-
-
+/* This code just usses different inputs to perform different actions between elements of the Box class. It is just an application of the
+code above */
 void check2()
 {
 	int n;

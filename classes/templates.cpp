@@ -6,7 +6,8 @@
 #include <cassert>
 using namespace std;
 
-/*Write the class AddElements here*/
+/*An example of how to use templates in C++. Again I did not like this problem because the solution was really forced,
+but it is still a nice reference to have */
 
 // class template:
 template <class T>

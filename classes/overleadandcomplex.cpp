@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/* an example on how to override + and << for complex numbers.  Easy example; also helps to have the Complex class in mind.*/
+
 class Complex
 {
 public:
