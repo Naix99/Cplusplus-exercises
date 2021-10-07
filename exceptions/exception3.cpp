@@ -3,6 +3,10 @@
 
 using namespace std;
 
+
+/* some example of how to use the exceptions classes available in C++ */
+
+
 int largest_proper_divisor(int n) {
     if (n == 0) {
         throw invalid_argument("largest proper divisor is not defined for n=0");

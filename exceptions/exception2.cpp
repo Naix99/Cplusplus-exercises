@@ -6,6 +6,8 @@
 #include <cmath>
 using namespace std;
 
+/* some example of how to use the exceptions classes available in C++ */
+
 class Server {
 private:
 	static int load;
